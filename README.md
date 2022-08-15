@@ -1,6 +1,6 @@
 # Multi-sided Die
 
-A command line program that accepts an integer number of sides of the die as an input and generates a roll value.
+A command line program that accepts an integer number of sides of the die as an input and generates a random roll value.
 
 ## Installation
 First download requirements.txt and install in terminal using:
@@ -15,31 +15,31 @@ python3 msdie.py
 ```
 
 ## Usage
-To roll a die of n sides enter the desired value of n. 
+To roll a die of n sides enter the desired value of n:
 ```python
 > 5
 ```
 
-Input Integer number of sides must be expressed in numerical or alphabetical format but the latter format must be separated with a single space.
+Input must be the integer number of sides expressed in numerical or alphabetical format but the latter format must be separated with a single space:
 ```python
 > sixty eight 
 ```
 
-To re-roll the previously given die enter 'roll' or 'r'.
+To re-roll the previously given die enter `roll` or `r`:
 ```python
 > roll
 ```
 
-To roll a die of n sides x number of times enter 'multi roll' or 'm r' followed by n then x.The result will be given as a dictionary of the occurrences of each side of the die.
+To roll a die of n sides x number of times enter `multi roll` or `m r` followed by n then x.The result will be given as a dictionary of the occurrences of each side of the die:
 ```python
 > m r 
 > 5 
 > 10
 ```
 
-To exit the calculator: `exit`, `quit` or `close`.'
+To exit the MSDie enter `exit`, `quit` or `close`.
 
-For help whilst using the calculator enter `help` or `?`. 
+For help whilst using the MSDie enter `help` or `?`. 
 
 ## Example
 

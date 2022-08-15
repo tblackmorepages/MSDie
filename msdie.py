@@ -57,7 +57,7 @@ def help_info():
           'then x.The result will be given as a dictionary of the occurrences of each side of the '
           'die.\ne.g. > m r \n> 5 \n> 10. \nInput format: \nInteger number of sides must be '
           'expressed in numerical or alphabetical format but the latter format must be separated '
-          'with a single space.\ne.g. > sixty eight. \nTo exit the calculator: `exit`, `quit` or '
+          'with a single space.\ne.g. > sixty eight. \nTo exit the MSDie: `exit`, `quit` or '
           '`close`.')
 
 
